@@ -23,6 +23,7 @@ public class DeptController {
 
     @RequestMapping("deptList")
     public Object list(){
+        System.out.println(3333333);
         return service.query();
     }
     @RequestMapping("deptById")
