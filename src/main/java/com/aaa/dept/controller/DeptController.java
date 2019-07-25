@@ -24,6 +24,10 @@ public class DeptController {
     @RequestMapping("deptList")
     public Object list(){
         System.out.println(3333333);
+        System.out.println(111111);
+        System.out.println(222222);
+        System.out.println(111111);
+        System.out.println(222222);
         return service.query();
     }
     @RequestMapping("deptById")
